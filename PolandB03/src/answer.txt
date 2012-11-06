@@ -1,0 +1,14 @@
+1. public Person[] people = new Person[10];
+2. Boolean[] vacant = new Boolean[10];
+3. The values of the arrays are string objects for the first array and true/false booleans for the second.
+4. The classpath is the parameter we set to tell the compiler where to find our classes and packages.
+5. A class can have any number of these: instance variables, arguments, return types, getters, setters, and methods
+   A method can only have one of these: return type
+   This can be implicitly promoted: instance variable
+   It really means 'make a copy': pass by value (javadude.com/articles/passbyvalue.htm)
+   Only setters should update these: instance variable
+   A method can have many of these: instance variables, arguments
+   I return something by definition: return type
+   I can have many arguments: method
+   By definition, I take one argument: setter
+   

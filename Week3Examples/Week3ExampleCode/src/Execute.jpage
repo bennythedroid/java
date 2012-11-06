@@ -1,0 +1,21 @@
+new LoopingInterationFor().execute();
+
+new WhileTest().execute();
+
+new BreakAndContinue().execute();
+
+new ArrayExample().execute();
+
+ new ObjectArray().execute();
+ 
+ new ReturnArray().execute();
+ 
+ new ArrayListTest().execute();
+ 
+ new HashMapTest().execute();
+ 
+ new PrintProperties().execute();
+ 
+ new HashMapsTyped().execute();
+ 
+ new VarArgListTest().execute();

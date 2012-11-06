@@ -1,0 +1,7 @@
+1: It's the remainder math function in java. 
+2: This makes my brain hurt because ?: is a ternary operator, a shortcut of if-then. 8%3 is not boolean, 
+and it does not evaluate to true or false. 
+3: 2,147,483,647 is the max value for an integer. So the answer would be (2,147,483,647 - 5) for the 
+number of possible results.
+4. Numbers 0 through 2,147,483,647. I am assuming in all of this that you cannot get remainders out of
+negative numbers. 

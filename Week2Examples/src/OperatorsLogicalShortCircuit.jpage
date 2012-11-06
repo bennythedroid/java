@@ -1,0 +1,16 @@
+int x = 0;
+      int y = 0;
+      boolean A = true;
+      boolean B = false; 
+
+// A is true , ++x<0 will not be evaluated since the || operator is used.
+      boolean C = A||(++x<0);
+      System.out.println("x = "+x);
+      System.out.println("C = "+C);
+
+// ++y<0 will be evaluated since the | operator is used.
+      boolean D = A|(++y<0);
+      System.out.println("y = "+y);
+      System.out.println("D = "+D);
+
+// note both C and D evaluate to true.

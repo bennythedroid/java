@@ -1,0 +1,122 @@
+C:\Users\bpoland\workspace\PolandB03\src>javac -verbose *.java
+[parsing started RegularFileObject[Library.java]]
+[parsing completed 18ms]
+[parsing started RegularFileObject[LibraryTest.java]]
+[parsing completed 1ms]
+[search path for source files: .,C:\Program Files (x86)\QuickTime\QTSystem\QTJav
+a.zip,$JUNIT_HOME\junit.jar,C:\Users\bpoland\Downloads\eclipse-jee-juno-SR1-win3
+2-x86_64\eclipse\plugins\org.junit_4.10.0.v4_10_0_v20120426-0900]
+[search path for class files: C:\Program Files\Java\jdk1.7.0_07\jre\lib\resource
+s.jar,C:\Program Files\Java\jdk1.7.0_07\jre\lib\rt.jar,C:\Program Files\Java\jdk
+1.7.0_07\jre\lib\sunrsasign.jar,C:\Program Files\Java\jdk1.7.0_07\jre\lib\jsse.j
+ar,C:\Program Files\Java\jdk1.7.0_07\jre\lib\jce.jar,C:\Program Files\Java\jdk1.
+7.0_07\jre\lib\charsets.jar,C:\Program Files\Java\jdk1.7.0_07\jre\lib\jfr.jar,C:
+\Program Files\Java\jdk1.7.0_07\jre\classes,C:\Program Files\Java\jdk1.7.0_07\jr
+e\lib\ext\access-bridge-64.jar,C:\Program Files\Java\jdk1.7.0_07\jre\lib\ext\dns
+ns.jar,C:\Program Files\Java\jdk1.7.0_07\jre\lib\ext\jaccess.jar,C:\Program File
+s\Java\jdk1.7.0_07\jre\lib\ext\localedata.jar,C:\Program Files\Java\jdk1.7.0_07\
+jre\lib\ext\sunec.jar,C:\Program Files\Java\jdk1.7.0_07\jre\lib\ext\sunjce_provi
+der.jar,C:\Program Files\Java\jdk1.7.0_07\jre\lib\ext\sunmscapi.jar,C:\Program F
+iles\Java\jdk1.7.0_07\jre\lib\ext\zipfs.jar,.,C:\Program Files (x86)\QuickTime\Q
+TSystem\QTJava.zip,$JUNIT_HOME\junit.jar,C:\Users\bpoland\Downloads\eclipse-jee-
+juno-SR1-win32-x86_64\eclipse\plugins\org.junit_4.10.0.v4_10_0_v20120426-0900]
+Library.java:15: error: package com.google.common.collect does not exist
+import com.google.common.collect.*;
+^
+[loading ZipFileIndexFileObject[C:\Program Files\Java\jdk1.7.0_07\lib\ct.sym(MET
+A-INF/sym/rt.jar/java/lang/Object.class)]]
+[loading ZipFileIndexFileObject[C:\Program Files\Java\jdk1.7.0_07\lib\ct.sym(MET
+A-INF/sym/rt.jar/java/lang/String.class)]]
+[loading ZipFileIndexFileObject[C:\Program Files\Java\jdk1.7.0_07\lib\ct.sym(MET
+A-INF/sym/rt.jar/java/util/HashMap.class)]]
+[loading ZipFileIndexFileObject[C:\Program Files\Java\jdk1.7.0_07\lib\ct.sym(MET
+A-INF/sym/rt.jar/java/util/ArrayList.class)]]
+Library.java:29: error: cannot find symbol
+ListMultimap<String, String> multimap = ArrayListMultimap.create();
+^
+  symbol:   class ListMultimap
+  location: class Library
+LibraryTest.java:2: error: package org.junit does not exist
+import org.junit.Test;
+                ^
+LibraryTest.java:12: error: cannot find symbol
+    @Test
+     ^
+  symbol:   class Test
+  location: class LibraryTest
+[checking Library]
+[loading ZipFileIndexFileObject[C:\Program Files\Java\jdk1.7.0_07\lib\ct.sym(MET
+A-INF/sym/rt.jar/java/lang/AutoCloseable.class)]]
+[loading ZipFileIndexFileObject[C:\Program Files\Java\jdk1.7.0_07\lib\ct.sym(MET
+A-INF/sym/rt.jar/java/util/AbstractList.class)]]
+[loading ZipFileIndexFileObject[C:\Program Files\Java\jdk1.7.0_07\lib\ct.sym(MET
+A-INF/sym/rt.jar/java/util/AbstractCollection.class)]]
+Library.java:29: error: cannot find symbol
+ListMultimap<String, String> multimap = ArrayListMultimap.create();
+                                        ^
+  symbol:   variable ArrayListMultimap
+  location: class Library
+[loading ZipFileIndexFileObject[C:\Program Files\Java\jdk1.7.0_07\lib\ct.sym(MET
+A-INF/sym/rt.jar/java/lang/System.class)]]
+[loading ZipFileIndexFileObject[C:\Program Files\Java\jdk1.7.0_07\lib\ct.sym(MET
+A-INF/sym/rt.jar/java/io/PrintStream.class)]]
+[loading ZipFileIndexFileObject[C:\Program Files\Java\jdk1.7.0_07\lib\ct.sym(MET
+A-INF/sym/rt.jar/java/io/FilterOutputStream.class)]]
+[loading ZipFileIndexFileObject[C:\Program Files\Java\jdk1.7.0_07\lib\ct.sym(MET
+A-INF/sym/rt.jar/java/io/OutputStream.class)]]
+[loading ZipFileIndexFileObject[C:\Program Files\Java\jdk1.7.0_07\lib\ct.sym(MET
+A-INF/sym/rt.jar/java/util/List.class)]]
+[checking LibraryTest]
+[total 567ms]
+Note: Library.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+5 errors
+
+
+
+
+C:\Users\bpoland\workspace\PolandB03\src>javadoc -d docs *.java
+Loading source file Library.java...
+Loading source file LibraryTest.java...
+Constructing Javadoc information...
+Library.java:15: error: package com.google.common.collect does not exist
+import com.google.common.collect.*;
+^
+Library.java:29: error: cannot find symbol
+ListMultimap<String, String> multimap = ArrayListMultimap.create();
+^
+  symbol:   class ListMultimap
+  location: class Library
+LibraryTest.java:2: error: package org.junit does not exist
+import org.junit.Test;
+                ^
+LibraryTest.java:12: error: cannot find symbol
+    @Test
+     ^
+  symbol:   class Test
+  location: class LibraryTest
+Standard Doclet version 1.7.0_07
+Building tree for all the packages and classes...
+Generating docs\Library.html...
+Generating docs\LibraryTest.html...
+javadoc: warning - Class Test not found.
+javadoc: warning - Class Test not found.
+javadoc: warning - Class Test not found.
+Generating docs\package-frame.html...
+Generating docs\package-summary.html...
+Generating docs\package-tree.html...
+Generating docs\constant-values.html...
+Building index for all the packages and classes...
+Generating docs\overview-tree.html...
+Generating docs\index-all.html...
+javadoc: warning - Class Test not found.
+Generating docs\deprecated-list.html...
+javadoc: warning - Class Test not found.
+Building index for all classes...
+Generating docs\allclasses-frame.html...
+Generating docs\allclasses-noframe.html...
+Generating docs\index.html...
+Generating docs\help-doc.html...
+9 warnings
+
+C:\Users\bpoland\workspace\PolandB03\src>javadoc -d docs *.java

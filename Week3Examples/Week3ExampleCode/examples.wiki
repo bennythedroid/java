@@ -1,0 +1,29 @@
+Assignment 2 - http://www.cooljavaman.org/moodle/mod/assignment/view.php?id=685
+Assignment 3 - http://www.cooljavaman.org/moodle/mod/assignment/view.php?id=702
+
+Example Code:
+* for loop - Eclipse:/Week3Code/src/LoopingInterationFor.java
+* while loop - Eclipse:/Week3Code/src/WhileTest.java
+* Break and Continue - Eclipse:/Week3Code/src/BreakAndContinue.java
+* Array Examples
+* - Eclipse:/Week3Code/src/ObjectArray.java
+* - Eclipse:/Week3Code/src/ReturnArray.java
+* - Eclipse:/Week3Code/src/ArrayExample.java
+* Arraylist - Eclipse:/Week3Code/src/ArrayListTest.java
+* HashMap - Eclipse:/Week3Code/src/HashMapTest.java
+* HashMap Typed - Eclipse:/Week3Code/src/HashMapsTyped.java
+* Variable Argument List- Eclipse:/Week3Code/src/VarArgListTest.java
+* Tools
+* - commandline - Eclipse:/Week3Code/src/CommandLineDosRun.java
+* - Multiple Classes in a file - Eclipse:/Week3Code/src/TwoClassesInAFile.java
+
+In class assignment - Eclipse:/Week3Code/src/BeerSong.java
+* - Eclipse:/Week3Code/src/BeerSongTwo.java
+
+Java Coding Standards
+* List of standards - http://www.ontko.com/java/java_coding_standards.html
+* Sun's standards -http://java.sun.com/docs/codeconv/
+
+Javadocs - file://Users/appleman/Documents/JDKJavaDocs/index.html
+
+Smelly Code - Eclipse:/Week3Code/src/SmellyCodeOne.java

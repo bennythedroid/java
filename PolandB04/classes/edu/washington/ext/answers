@@ -1,0 +1,7 @@
+1. The structure of the documentation has the library/package it belongs to, a description, followed by it's parts. They seem to
+all share the Field Summary, the Constructor Summary, the Method Summary, and other details about its use.
+
+2. Tests if a string starts with a specified prefix.
+
+3. There is! endsWith. It returns a true or false boolean, determined by the equals(Object) method. It's access specifier is public.
+
