@@ -1792,3 +1792,9 @@ Contains: Could not delete: C:\Users\bpoland\workspace\PolandB04\classes\edu.
 !MESSAGE Could not delete: C:\Users\bpoland\workspace\PolandB04\classes\edu\washington.
 !SUBENTRY 5 org.eclipse.core.filesystem 4 273 2012-11-05 16:44:48.888
 !MESSAGE Could not delete: C:\Users\bpoland\workspace\PolandB04\classes\edu.
+
+!ENTRY org.eclipse.epp.usagedata.recording 1 0 2012-11-17 11:12:34.878
+!MESSAGE Usage data uploaded to http://udc.eclipse.org/upload.php in 5884 milliseconds.
+
+!ENTRY org.eclipse.epp.usagedata.recording 1 0 2012-11-26 13:08:21.946
+!MESSAGE Usage data uploaded to http://udc.eclipse.org/upload.php in 1392 milliseconds.
