@@ -1,0 +1,11 @@
+//Output with string provided
+
+C:\Users\bpoland\workspace\PolandBmid\classes>java edu.washington.midcourse.Main
+ "Hello there. Testing, testing!"
+Uryyb gurer. Grfgvat, grfgvat!
+
+//Output with string ommitted:
+
+C:\Users\bpoland\workspace\PolandBmid\classes>java edu.washington.midcourse.Main
+
+Hey you need to provide a string
