@@ -1,0 +1,47 @@
+package edu.washington.ext;
+
+public class Manager implements Employee {
+	
+	private static double bonusRate;
+	private String name;
+	private double basePay;
+	private double currentStoreSales;
+	private double currentSales;
+	
+	public Manager(String name) {
+		this.name = name;
+	}
+	
+	public static void setBonusRate(double bonusRate) {
+		Manager.bonusRate = bonusRate;
+	}
+	
+	public void setCurrentSales(double sales) {
+		this.currentSales = sales;
+	}
+	
+	public double getCurrentSales() {
+		return this.currentSales;
+	}
+	
+	public void setBasePay(double basePay) {
+		
+	}
+	
+	public void setCurrentStoreSales(double currentSales) {
+		
+	}
+
+	@Override
+	public String getName() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public double calculatePay() {
+		// TODO Auto-generated method stub have to do the right math for the method from the interface right here.
+		return 0;
+	}
+
+}

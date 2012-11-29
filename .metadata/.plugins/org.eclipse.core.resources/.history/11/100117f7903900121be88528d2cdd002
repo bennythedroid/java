@@ -1,0 +1,44 @@
+package edu.washington.ext;
+
+public class SalesEmployee implements Employee{
+	
+	private double currentHours;
+	private double hourlyRate;
+	private String name;
+	private double currentSales;
+	
+	public StoreEmployee(String name) {
+		
+	}
+	
+	public void setCurrentSales(double sales) {
+		
+	}
+	
+	public double getCurrentSales() {
+		
+	}
+	
+	public void setHourlyRate(double rate) {
+		
+	}
+	
+	public void setCurrentHours(double hours) {
+		
+	}
+
+	@Override
+	public String getName() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public double calculatePay() {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+	
+	
+
+}

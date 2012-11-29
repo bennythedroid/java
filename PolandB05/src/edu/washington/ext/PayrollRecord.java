@@ -22,7 +22,7 @@ public class PayrollRecord implements Employee {
 	}
 
 	public double getCurrentPay() {
-		
+		//return something
 	}
 	
 	public String getEmployeeName() {

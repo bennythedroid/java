@@ -1,0 +1,19 @@
+package edu.washington.ext;
+
+public class SalesAssociate  extends StoreEmployee{
+	
+	private double commissionRate;
+	
+	public SalesAssociate(String name) {
+		StoreEmployee.name = name;
+	}
+	
+	public void setCommissionRate(double rate) {
+		
+	}
+	
+	public double calculatePay() {
+		super.calculatePay();
+	}
+
+}
